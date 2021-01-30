@@ -1,5 +1,3 @@
-console.log('Client side')
-
 const yomamma = location => {
     fetch('http://localhost:3000/weather?address=' + location)
     .then(response=>{
